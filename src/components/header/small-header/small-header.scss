@@ -1,0 +1,15 @@
+.small-header {
+  background-color: rgba(103, 103, 103, 1);
+  .small-header__wrap {
+    padding: 5px 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #b2afaf;
+    p {
+      cursor: pointer;
+      margin: 0 10px;
+    }
+  }
+}

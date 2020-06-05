@@ -1,0 +1,48 @@
+.header-top-nav {
+  background-color: rgba(26, 26, 26, 1);
+  font-size: 1.4rem;
+  .header-top-nav__wrap {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 15px;
+    .header-top-nav__left {
+      width: 41.66666667%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .header-login {
+        a {
+          color: white;
+          &:last-child {
+            margin: 0 50px;
+          }
+        }
+      }
+      .header-social {
+        display: flex;
+        align-items: center;
+        li {
+          margin-right: 10px;
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+    .header-top-nav__right {
+      width: 58.33333333%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .header-contact {
+        .call-us {
+          a {
+            margin: 0 20px 0 4px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
